@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.8/css/swiper.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/css/all.css" />
+  <!-- Cairo font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;900&display=swap" rel="stylesheet" />
+  <!-- Aos Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Links For Rtl Only -->
+  <link rel="stylesheet" href="assets/css/rtl.css" />
+</head>
+
+<body>
+  <!-- ============================================================== -->
+  <!-- Loader -->
+  <!-- ============================================================== -->
+  <div id="loading-wrapper">
+    <div id="loading-text">LOADING</div>
+    <div id="loading-content"></div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- Loader End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Navbar -->
+  <!-- ============================================================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-light px-lg-5">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo.png" alt="..." class="logo" />
+    </a>
+    <button class="navbar-toggler btn rounded-0" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <span class="navbar-text" style="color: #0fae9a"> العربية </span>
+    </div>
+  </nav>
+  <!-- ============================================================== -->
+  <!-- Navbar End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Main Slider -->
+  <!-- ============================================================== -->
+
+  <div class="swiper-container main-slider">
+    <div id="particles-js"></div>
+    <!-- swiper slides -->
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image: url(test.jpg)">
+        <!-- <div class="text-wrapper">
+            <div class="inner">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            </div>
+          </div> -->
+      </div>
+      <div class="swiper-slide" style="background-image: url(box.jpeg)">
+        <!-- <div class="text-wrapper">
+            <div class="inner">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            </div>
+          </div> -->
+      </div>
+      <div class="swiper-slide" style="
+            background-image: url(https://images.unsplash.com/photo-1557804506-669a67965ba0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+          ">
+        <!-- <div class="text-wrapper">
+            <div class="inner">
+              <h2>SIMPLE SWIPER 1</h2>
+            </div>
+          </div> -->
+      </div>
+      <div class="swiper-slide" style="background-image:
+          url(https://fortressmw.com/wp-content/uploads/2019/11/Company-Profi.jpeg);">-->
+        <!-- <div class="text-wrapper">
+            
+            <div class="inner">
+              <h2>SIMPLE SWIPER 1</h2>
+            </div>
+          </div> -->
+      </div>
+    </div>
+    <!-- !swiper slides -->
+
+    <!-- next / prev arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- !next / prev arrows -->
+
+    <!-- pagination dots -->
+    <div class="swiper-pagination"></div>
+    <!-- !pagination dots -->
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- Main Slider End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- About Us Container -->
+  <!-- ============================================================== -->
+  <div id="about-us" class="container-fluid about-us-container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 p-lg-3 p-md-2">
+        <div class="site-header">
+          <h2 class="site-blue-text">About Us</h2>
+          <div class="her-line"></div>
+          <div class="ver-line"></div>
+        </div>
+        <p class="text-secondary">
+          <strong>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Suspendisse malesuada dignissim nisi. Vestibulum convallis sem nec
+            rutrum malesuada. Suspendisse potenti Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Suspendisse malesuada dignissim nisi.
+            Vestibulum convallis sem nec rutrum malesuada. Suspendisse potenti
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Suspendisse malesuada dignissim nisi.
+          </strong>
+        </p>
+      </div>
+      <div class="col-12 col-md-6">
+        <img
+          src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+          style="border: rgb(239 143 0) solid 0.6rem; border-radius: 50px" class="w-100 h-100" alt=""
+          data-aos-duration="2000" data-aos="zoom-in" />
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- About Us container End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Second About Us Container -->
+  <!-- ============================================================== -->
+  <div class="container-fluid about-us-divs">
+    <div class="row">
+      <div class="col-12 col-md-6 about-us-text" style="background: url('assets/images/d1.jpg') no-repeat">
+        <div class="my-auto p-2 p-md-5">
+          <h1>Our Message</h1>
+          <p>
+            Education is about teaching, learning skills & knowledge.
+            Education also mean helping people learn how to do things and
+            encouraging them to think. eduking the best psd template.
+          </p>
+          <p>
+            Education gives us a knowledge of world around us and changes it
+            into something better.It develops in us perspective of looking at
+            life. It helps us build opinions and have points of view.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 about-us-img" style="
+            background: url('https://images.unsplash.com/photo-1582005450386-52b25f82d9bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')
+              no-repeat;
+          "></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 about-us-img" style="
+            background: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80')
+              no-repeat;
+          "></div>
+      <div class="col-12 col-md-6 about-us-text" style="background: url('assets/images/d2.jpg') no-repeat">
+        <div class="my-auto p-2 p-md-5">
+          <h1>Our Vision</h1>
+          <p>
+            Education is about teaching, learning skills & knowledge.
+            Education also mean helping people learn how to do things and
+            encouraging them to think. eduking the best psd template.
+          </p>
+          <p>
+            Education gives us a knowledge of world around us and changes it
+            into something better.It develops in us perspective of looking at
+            life. It helps us build opinions and have points of view.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- Second About Us Container End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Services Container -->
+  <!-- ============================================================== -->
+  <div class="container-fluid text-center our-services-container" style="
+        background-image: linear-gradient(rgba(0, 0, 0, 0.39), black),
+          url(https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80);
+      ">
+    <div class="row h-100 w-100 p-0 m-0">
+      <div class="col-12 align-self-center">
+        <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
+          Services
+        </h2>
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500"
+          class="row pt-5 pb-5 justify-content-center">
+          <div class="d-flex service-container">
+            <div class="col-12 align-self-center text-white">
+              <img class="pb-4" src="assets/images/serv21.png" alt="" />
+              <h4 class="pt-1"><strong> Lorem ipsum </strong></h4>
+              <h6 class="pt-0"><strong> dolor sit amet</strong></h6>
+            </div>
+          </div>
+          <div class="d-flex service-container">
+            <div class="col-12 align-self-center text-white">
+              <img class="pb-4" src="assets/images/serv21.png" alt="" />
+              <h4 class="pt-1"><strong> Lorem ipsum </strong></h4>
+              <h6 class="pt-0"><strong> dolor sit amet</strong></h6>
+            </div>
+          </div>
+          <div class="d-flex service-container">
+            <div class="col-12 align-self-center text-white">
+              <img class="pb-4" src="assets/images/serv21.png" alt="" />
+              <h4 class="pt-1"><strong> Lorem ipsum </strong></h4>
+              <h6 class="pt-0"><strong> dolor sit amet</strong></h6>
+            </div>
+          </div>
+          <div class="d-flex service-container">
+            <div class="col-12 align-self-center text-white">
+              <img class="pb-4" src="assets/images/serv21.png" alt="" />
+              <h4 class="pt-1"><strong> Lorem ipsum </strong></h4>
+              <h6 class="pt-0"><strong> dolor sit amet</strong></h6>
+            </div>
+          </div>
+        </div>
+        <a href="" class="text-reset">
+          <h5 class="text-white" style="text-decoration: underline" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="3500">
+            See All
+          </h5>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- Services Container End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Team Container -->
+  <!-- ============================================================== -->
+  <!-- <div class="container mt-5 mb-5" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="site-header">
+                    <h2 class="site-blue-text">Our Team</h2>
+                    <div class="her-line"></div>
+                    <div class="ver-line"></div>
+                </div>
+            </div>
+            <div class="col-12" style="overflow: hidden; padding: 40px 50px;">
+                <div class="swiper-container3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="imgBx">
+                                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                                        alt="images">
+                                </div>
+                                <div class="details">
+                                    <h2>Tariq ALSheddi<br><span>Founding Partner</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="imgBx">
+                                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                                        alt="images">
+                                </div>
+                                <div class="details">
+                                    <h2>Abdulaziz Altoukhi<br><span>Partner at Alsheddi Law Firm</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+  <!-- ============================================================== -->
+  <!-- Team Container End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Panner Section -->
+  <!-- ============================================================== -->
+  <!-- <div class="main-page-panner" style=" background: linear-gradient(rgba(0, 0, 0, 0.39), black), url(https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80) no-repeat;">
+
+    </div> -->
+  <!-- ============================================================== -->
+  <!-- Panner Section End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Projects Page -->
+  <!-- ============================================================== -->
+  <div class="container one Projects-page my-5" data-aos="zoom-in" data-aos-duration="2000">
+    <div class="text-center my-5">
+      <div class="site-header">
+        <h2 class="site-blue-text">Our Projects</h2>
+        <div class="her-line"></div>
+        <div class="ver-line"></div>
+      </div>
+    </div>
+    <div class="">
+      <div class="grid-cards">
+        <!-- card -->
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1507206130118-b5907f817163?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIzMzQzMjIz&ixlib=rb-1.2.1&q=80&w=600"
+            alt="img-1" title="card image" />
+          <div class="card-body">
+            <h3 class="title-card">Lorem ipsum dolor sit amet</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              in vulputate dui. Curabitur orci augue, finibus vel imperdiet
+              eu, posuere ac eros.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#">Click here</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIzMzQzNjkw&ixlib=rb-1.2.1&q=80&w=600"
+            alt="img-2" title="card image" />
+          <div class="card-body">
+            <h3 class="title-card">Lorem ipsum dolor</h3>
+            <p>
+              Suspendisse et commodo velit. Suspendisse porttitor, nisi ac
+              luctus suscipit, risus dolor facilisis ligula
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#">Click here</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1538688273852-e29027c0c176?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIzMzQzNjEx&ixlib=rb-1.2.1&q=80&w=600"
+            alt="img-3" title="card image" />
+          <div class="card-body">
+            <h3 class="title-card">Lorem ipsum dolor</h3>
+            <p>
+              Cras maximus eros eleifend luctus interdum. Vestibulum tincidunt
+              nisi eget turpis faucibus, sit amet ultrices tortor tempor.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#">Click here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="" class="text-reset">
+          <h5 class="text-dark" style="text-decoration: underline" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="3500">
+            See All
+          </h5>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- Projects Page End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Testmonials Container -->
+  <!-- ============================================================== -->
+  <div class="testmonials-bg" style="background: url(assets/images/d1.jpg) no-repeat">
+    <div class="container mt-5 mb-5" data-aos="zoom-in" data-aos-duration="2000">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="site-header">
+            <h2 class="text-white">Testmonials</h2>
+            <!-- <h2 class="site-blue-text">Testmonials</h2> -->
+            <!-- <div class="her-line"></div>
+                        <div class="ver-line"></div> -->
+          </div>
+        </div>
+        <div class="col-12" style="overflow: hidden; padding: 40px 50px">
+          <div class="swiper-container3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testmonial-card">
+                  <div class="img">
+                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                      alt="..." />
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="text">
+                    <p class="said">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                    <p class="name">Mehdi Mohammadi</p>
+                    <p class="position">WEB DEVELOPER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testmonial-card">
+                  <div class="img">
+                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                      alt="..." />
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="text">
+                    <p class="said">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                    <p class="name">Mehdi Mohammadi</p>
+                    <p class="position">WEB DEVELOPER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testmonial-card">
+                  <div class="img">
+                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                      alt="..." />
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="text">
+                    <p class="said">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                    <p class="name">Mehdi Mohammadi</p>
+                    <p class="position">WEB DEVELOPER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testmonial-card">
+                  <div class="img">
+                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                      alt="..." />
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="text">
+                    <p class="said">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                    <p class="name">Mehdi Mohammadi</p>
+                    <p class="position">WEB DEVELOPER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testmonial-card">
+                  <div class="img">
+                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                      alt="..." />
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="text">
+                    <p class="said">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                    <p class="name">Mehdi Mohammadi</p>
+                    <p class="position">WEB DEVELOPER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testmonial-card">
+                  <div class="img">
+                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                      alt="..." />
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="text">
+                    <p class="said">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                    <p class="name">Mehdi Mohammadi</p>
+                    <p class="position">WEB DEVELOPER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testmonial-card">
+                  <div class="img">
+                    <img src="http://blog.homerealestate.com/wp-content/uploads/2010/04/Person.Ashley-820x1024.jpg"
+                      alt="..." />
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="text">
+                    <p class="said">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                    <p class="name">Mehdi Mohammadi</p>
+                    <p class="position">WEB DEVELOPER</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- Testmonials Container End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Contact Us Container -->
+  <!-- ============================================================== -->
+  <div class="container-fluid contact-us-container my-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="site-header">
+          <h2 class="site-blue-text">Contact Us</h2>
+          <div class="her-line"></div>
+          <div class="ver-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row inner-wrapper">
+      <div class="col-md-5">
+        <h4>drop a message</h4>
+        <h4>phone</h4>
+        <p class="mb-0">
+          <span>Manager1 : </span><a href="tel:01100966)533345192(047)251052"
+            class="text-decoration-none text-muted">533345192</a>
+        </p>
+        <p class="mb-0">
+          <span>Manager2 : </span><a href="tel:01100966)533345192(047)251052"
+            class="text-decoration-none text-muted">533345192</a>
+        </p>
+        <p>
+          <span>Manager3 : </span><a href="tel:01100966)533345192(047)251052"
+            class="text-decoration-none text-muted">533345192</a>
+        </p>
+
+        <h4>address</h4>
+        <p class="text-muted">Saudi Arabia - North coast - more address</p>
+        <h4>email</h4>
+        <p>
+          <a href="mailto:test@test.com" class="text-decoration-none text-muted">test@test.com</a>
+        </p>
+      </div>
+      <div class="col-md-7">
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltipName"></label>
+              <input type="text" class="form-control" id="validationTooltipName" placeholder="Name" required />
+              <div class="valid-tooltip">Looks good!</div>
+              <div class="invalid-tooltip">Please enter a valid name.</div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltipEmail"></label>
+              <input type="email" class="form-control" id="validationTooltipEmail" placeholder="email@test.test"
+                required />
+              <div class="valid-tooltip">Looks good!</div>
+              <div class="invalid-tooltip">Please enter a valid Email.</div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-12 mb-5">
+              <label for="exampleFormControlTextarea1"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"
+                required></textarea>
+              <div class="valid-tooltip">Looks good!</div>
+              <div class="invalid-tooltip">Please enter a valid Message.</div>
+            </div>
+          </div>
+          <div class="form-row button-wrapper">
+            <button class="btn btn-dark border-0 px-5 btn-lg" type="submit">
+              Send
+            </button>
+          </div>
+        </form>
+        <script></script>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- Contact Us Container End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Footer -->
+  <!-- ============================================================== -->
+  <div class="contact-footer py-5">
+    <div class="container">
+      <div class="row text-white">
+        <div class="col-md-6">
+          <h3>Lorum Ipsum</h3>
+        </div>
+        <div class="col-md-6 button-wrapper">
+          <a href="#" class="btn btn-light btn-lg border-0"> Contact Us </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget subscribe no-box">
+              <!-- <h5 class="widget-title">COMPANY NAME<span></span></h5> -->
+              <img class="footer-logo" src="assets/images/logo2.png" alt="..." />
+              <p>About the company, little discription will goes here..</p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Quick Links<span></span></h5>
+              <ul class="thumbnail-widget">
+                <li>
+                  <div class="thumb-content"><a href="#.">Home</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">About Us</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Projects</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Services</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Contact Us</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Send Us A Message<span></span></h5>
+              <p>Get access to your full Training and Marketing Suite.</p>
+              <a class="btn" href="#"> Contact Us </a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Contact Us<span></span></h5>
+
+              <p>
+                <a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a>
+              </p>
+              <ul class="social-footer2">
+                <li class="">
+                  <a title="youtube" target="_blank" href="#">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a title="youtube" target="_blank" href="#">
+                    <i class="fab fa-snapchat-ghost"></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a title="youtube" target="_blank" href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a title="youtube" target="_blank" href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a title="youtube" target="_blank" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright Company Name © 2021. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ============================================================== -->
+  <!-- Footer End -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Get Quotaion Modal -->
+  <!-- ============================================================== -->
+  <!-- Button trigger modal -->
+  <button type="button" style="background-color: #0fae9a" class="btn rounded-circle btn-lg btn-primary quotation-button"
+    data-toggle="modal" data-target="#exampleModal">
+    <i class="far fa-comments"></i>
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade get-quotation-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Get Quotation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control border" id="exampleInputEmail1" aria-describedby="emailHelp" />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Name</label>
+              <input type="text" class="form-control border" id="exampleInputPassword1" />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPhone">Phone</label>
+              <input type="tel" class="form-control border" id="exampleInputPhone" />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control border" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+          <button type="button" class="btn btn-primary btn-lg px-5 mx-auto">
+            SEND
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- Get Quotaion Modal End-->
+  <!-- ============================================================== -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+  </script>
+  <!-- Swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.8/js/swiper.js"></script>
+  <!-- Particles -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="assets/js/all.js"></script>
+  <!-- Aos Animations -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- Script For This Page Only -->
+  <script>
+    $("body").addClass("scroll-top");
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+
+      //>=, not <=
+      if (scroll == 0) {
+        //clearHeader, not clearheader - caps H
+        $("body").addClass("scroll-top");
+      } else {
+        $("body").removeClass("scroll-top");
+      }
+    }); //missing );
+  </script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

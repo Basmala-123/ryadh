@@ -1,0 +1,54 @@
+body,
+html {
+    direction: rtl;
+    text-align: right;
+}
+
+.swiper-container,
+.swiper-container3,
+#loading-wrapper {
+    direction: ltr;
+}
+
+.site-header .her-line {
+    transform: rotate(-5deg);
+    transform-origin: 100% 0%;
+}
+
+.site-header .ver-line {
+    right: -15px;
+    left: unset;
+    transform: rotate(15deg);
+}
+
+.quotation-button {
+    right: unset;
+    left: 20px;
+}
+
+footer ul {
+    padding-right: 0px;
+}
+
+.contact-footer .button-wrapper{
+    text-align: left;
+}
+
+.navbar-nav{
+    margin-right:unset !important;
+    margin-left:auto !important;
+    
+}
+
+@media screen and (max-width: 991px){
+    .navbar-text{
+        padding-right: 25px;
+    }
+    .navbar-nav{
+        padding-right: 20px;
+    }
+}
+
+.modal-header .close {
+    margin: -1rem auto -1rem -1rem ;
+}
